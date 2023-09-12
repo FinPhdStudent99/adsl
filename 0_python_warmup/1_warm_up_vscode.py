@@ -77,11 +77,11 @@ print(a)
 # Hint: follow the pattern.
 a = 1
 b = 2
-c.= 3
+c = 3
 
 # Hint: Check the tooltip.
-def notUsed()
-    print('Hello!')
+def not_used():
+    print('Hello')
 
 
 # EXERCISE 3. Producticity: Shorcuts and More.
@@ -111,7 +111,6 @@ catchMeIfYouCan1 = 'You did not catch me!'
 catchMeIfYouCan2 = 'You did not catch me!'
 catchMeIfYouCan3 = 'You did not catch me!'
 
-
 # EXERCISE 4. Bracket Matching.
 #
 # JavaScript wraps blocks of codes in curly brackets: { SOME CODE }.
@@ -131,7 +130,6 @@ b = 2
 c = 3
 if (a*2 + (c/(b+1))) > 1:
     print("Hei!")
-
 
 # b. That was easy. In more complicated cases, you might want to use a
 # keyboard shortcut. Yes, but which one? You can search for "Go to bracket"
